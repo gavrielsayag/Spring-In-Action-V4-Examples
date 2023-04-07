@@ -5,8 +5,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
   <bean id="ThisIsMyCompactDisc"
-        class="sound.system.cd.player.VariousArtistsHaveOnlySettersCD">
-    <property name="albumName" value="greatest hits of pop" />
+        class="sound.system.cd.player.VariousArtistsHaveOnlySettersCD"
+        p:albumName="greatest hits of pop!!!">
     <property name="numOfSongs" value="35" />
     <property name="artistsNames">
       <list>
